@@ -7,14 +7,12 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-<<<<<<< HEAD
   array.unshift(element)
   return array
 }
-=======
   return array.unshift(element)
  }
->>>>>>> 7289534c5ca24354ddbd3fabca6367c14f59d9e4
+
 
 function addElementToEndOfArray(array, element) {
   var newArray = [...array]
@@ -23,7 +21,6 @@ function addElementToEndOfArray(array, element) {
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
-<<<<<<< HEAD
   array.push(element)
   return array
 } 
