@@ -44,13 +44,4 @@ function removeElementFromEndOfArray(array) {
   return array.slice(0, array.length - 1)
 }
  
- 
- 
- 
- 
- 
- 
-=======
-  return array.push(element)
-} 
->>>>>>> 7289534c5ca24354ddbd3fabca6367c14f59d9e4
+
